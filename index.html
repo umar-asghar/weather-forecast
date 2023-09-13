@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css">
+    <title>weather cast</title>
+  </head>
+  <body>
+    <div class="weather">
+        <div class="searchbar">
+            <input id="text" placeholder="Enter City Name">
+            <img id="btn"  src="/photos/search.png" alt="search">
+        </div>
+        <div class="main">
+            <img id="photo" src="/photos/clear.jpg" alt="weather icon">
+            <h1 id="temperature">30°c</h1>
+            <h1 id="city">LAHORE</h1>
+        </div>
+        <div class="bottom">
+            <div class="BL">
+                <img src="/photos/humidity.png" alt="humidity icon">
+                <div>
+                    <h4 id="humidity">48%</h3>
+                    <h5>Humidity</h4>
+                </div>
+            </div>
+            <div class="BR">
+                <img src="/photos/wind.png" alt="wind logo">
+                <div>
+                    <h4 id="wind">10.29 Km/h</h3>
+                    <h5>wind Speed</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
